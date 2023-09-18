@@ -1,10 +1,10 @@
 public String aOrAn(String word) {
     //code here
-    if(startswith('a','e','i','o','u'))
+    List <String> vowels = new List<String>{'a','e','i','o','u'};
+    if(word.startsWithIgnoreCase(vowels))
     {
-        System.assertEquals('an '+ word);
+        return 'an ' + word;
     }
-    else{
-        System.assertEquals('a '+ word);
-    }
+    else
+     return 'a ' + word;
 }
