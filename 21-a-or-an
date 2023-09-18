@@ -1,7 +1,7 @@
 public String aOrAn(String word) {
     //code here
     List <String> vowels = new List<String>{'a','e','i','o','u'};
-    for(string vowel:vowles)
+    for(string vowel:vowels)
     {
         if (word.startsWith(vowel))
         {
