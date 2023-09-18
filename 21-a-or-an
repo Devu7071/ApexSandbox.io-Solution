@@ -5,11 +5,11 @@ public String aOrAn(String word) {
     {
         if (word.startsWith(vowel))
         {
-            return ('an ' + word);
+            return 'an';
         }
         else
         {
-        return ('a ' + word);
+        return 'a';
         }
     }
 }
