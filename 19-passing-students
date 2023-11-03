@@ -13,7 +13,5 @@ public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean p
     if(count>=2){
         return True;
     }
-    else{
         return False;
-    }
 }
