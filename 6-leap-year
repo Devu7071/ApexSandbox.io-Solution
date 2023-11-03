@@ -1,0 +1,11 @@
+public Boolean isLeapYear(Integer year) {
+    if(math.mod(year,100) == 0){
+        return false;
+    }
+    else if((math.mod(year,400)==0) || (math.mod(year,4)==0) ){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
