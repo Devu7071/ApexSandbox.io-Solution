@@ -1,28 +1,17 @@
 public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
-    //code here
-    If(passedExam ==True & passedAssignments ==True)
-    {
+    list<Boolean> BL = new list<Boolean>();
+    BL.add(passedAssignments);
+    BL.add(passedExam);
+    BL.add(passedProject);
+
+    for(Boolean B:BL){
+        if(B == True)
+        integer Count++;
+    }
+    if(count>=2){
         return True;
     }
-    Else if(passedExam == True & passedProject == True)
-    {
-        return True;
-    }
-    Else if(passedAssignments ==True & passedProject ==True)
-    {
-        return True;
-    }
-    Else if(passedExam ==false & passedAssignments ==False)
-    {
-        return false;
-    }
-    Else if(passedExam ==false & passedProject == False)
-    {
-        return false;
-    }
-     Else if(passedAssignments ==False & passedProject ==false)
-    {
-        return false;
-    }
+    else{
+        return False;
     }
 }
