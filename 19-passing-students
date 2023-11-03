@@ -1,11 +1,12 @@
 public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
-    if(passedAssignments && passedExam ){
+   
+    if(passedAssignments ==true && passedExam ==true ){
         return True;
     }
-    else if(passedAssignments  && passedProject ){
+    else if(passedAssignments ==true  && passedProject ==true){
         return true;
     }
-    else if(passedExam && passedProject ){
+    else if(passedExam ==true && passedProject==true ){
         return true
     }
     else{
