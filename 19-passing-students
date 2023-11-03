@@ -1,6 +1,6 @@
 public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
     list<Boolean> BL = new list<Boolean>();
-    int count = 0;
+    integer count = 0;
     BL.add(passedAssignments);
     BL.add(passedExam);
     BL.add(passedProject);
