@@ -5,6 +5,6 @@ public Boolean isPrime(Integer num) {
         if(math.mod(num,i) ==0){
             return False;
         }
-        return True;
     }
+    return True;
 }
